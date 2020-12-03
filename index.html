@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Email Signature</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+
+.email-signature{
+    background: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 50px 20px 15px 120px;
+    box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+    margin-top: 100px;
+}
+.email-signature:before{
+    content: "";
+    background: linear-gradient(to right,#128ef3 49%,#0fc4f1 50%);
+    width: 18px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.email-signature .signature-img{
+    background: #fff;
+    width: 140px;
+    height: 140px;
+    padding: 3px;
+    border-radius: 50%;
+    border: 5px solid #0fcff1;
+    overflow: hidden;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    z-index: 1;
+}
+.email-signature .signature-img img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.email-signature .signature-details{
+    color: #fff;
+    background: #0ff122;
+    text-align: center;
+    padding: 15px 10px 15px 50px;
+    margin-bottom: 20px;
+    border-right: 15px solid #16f10f;
+}
+.email-signature .title{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.email-signature .post{
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.signature-content li{
+    list-style-type: none;
+    margin: 10px;
+}
+.fa-map-marker-alt{
+    list-style-type: none;
+    
+    color: #0fd7f1;
+}
+.fa-envelope{
+    list-style-type: none;
+    
+    color: #0fcff1;
+}
+.fa-mobile-alt{
+    list-style-type: none;
+    
+    color: #0fcff1;
+}
+.fa-globe{
+    list-style-type: none;
+    
+    color: #0fd7f1;
+}
+#socail{
+      float:right; 
+      margin-top: 85px;
+}
+#socail ul{
+    margin-bottom:px;
+}
+#socail ul li{
+    list-style-type: none;
+    margin:5px;
+    float:left;
+
+}
+#socail ul li a{
+
+}  
+#socail ul li a img{
+    height:20px;
+} 
+ </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-3 col-md-6 col-sm-offset-1 col-sm-10">
+                <div class="email-signature">
+                    <div class="signature-img">
+                        <img src="https://raw.githubusercontent.com/sajib2183/profile/main/IMG-20200525-WA0053.jpg" alt="">
+                    </div>
+                    <div class="signature-details">
+                        <h2 class="title">Mohhammad Sajib Hasan</h2>
+                        <span class="post">web designer & Developer</span>
+                    </div>
+                    
+                    
+                    
+                
+                    <div id="socail">
+                    <ul>
+                        <li><a href="#"><img src="https://raw.githubusercontent.com/sajib2183/icon/main/facebook.ico" alt=""></a></li>
+                        <li><a href="#"><img src="https://raw.githubusercontent.com/sajib2183/icon/main/instagram.ico" alt=""></a></li>
+                        <li><a href="#"><img src="https://raw.githubusercontent.com/sajib2183/icon/main/linkedin.ico" alt=""></a></li>
+                        <li><a href="#"><img src="https://raw.githubusercontent.com/sajib2183/icon/main/twitter_v2.ico" alt=""></a></li>
+                    </ul>
+                    </div>
+
+                    <ul class="signature-content">
+                        <li><span class="fa fa-map-marker-alt"></span> #3533,Comilla Banladesh </li>
+                        <li><span class="fa fa-envelope"></span> sajib2183@gmail.com</li>
+                        <li><span class="fa fa-mobile-alt"></span> +8801820918996</li>
+                        <li><span class="fa fa-globe"></span> iq.com</li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
